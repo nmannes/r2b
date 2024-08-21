@@ -1,3 +1,3 @@
 # Road 2 blue website
 
-I started with (this)[https://github.com/zerostaticthemes/jekyll-serif-theme]
+I started with https://github.com/zerostaticthemes/jekyll-serif-theme
