@@ -1,0 +1,22 @@
+---
+layout: default
+bodyClass: "page-teams"
+---
+
+<div class="intro">
+    <div class="container">
+        {% for guy in site.team %}
+        <div class="row pb-4">
+            <div class="col-sm-6">
+                <h1>{{guy.title}}</h1>
+                <p>
+                    {{guy.content}}
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <img width="480" src="{{guy.image | relURL}}">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

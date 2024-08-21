@@ -1,0 +1,33 @@
+
+{% assign candidate = include['candidate'] %}
+<div class="row">
+  <div class="col">
+    <p>
+      <a href="{{candidate.campaign-site}}">
+        {{candidate.First}} {{candidate.Last}}
+      </a>
+    </p>
+  </div>
+  <div class="col">
+    {% if candidate.District.size == 2 %}
+      <p>Senate {{candidate.District}} </p>
+    {% else %}
+      <p>{{candidate.District}} </p>
+    {% endif %}
+  </div>
+
+  <div class="col">
+    <p>
+      <a href="{{candidate.Ballotpedia}}">
+        Electoral Record
+      </a>
+    </p>
+  </div>
+  <div class="col">
+    <p>
+      <a href="{{candidate.ActBlue}}">
+        Donate
+      </a>
+    </p>
+  </div>
+</div>
