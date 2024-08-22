@@ -1,6 +1,6 @@
 
 {% assign candidate = include['candidate'] %}
-<div class="row">
+<div class="row" style="border: solid grey 1px; border-left: none; border-right: none;">
   <div class="col">
     <p>
       <a href="{{candidate.campaign-website}}">
@@ -8,22 +8,45 @@
       </a>
     </p>
   </div>
-  <div class="col">
+  <div class="col d-flex align-items-center">
     {% if candidate.District.size == 2 %}
-      <p>Senate {{candidate.District}} </p>
+      <p>Sen-{{candidate.District}} </p>
     {% else %}
       <p>{{candidate.District}} </p>
     {% endif %}
   </div>
 
-  <div class="col">
+  <div class="col d-flex align-items-center">
     <p>
       <a href="{{candidate.Ballotpedia}}">
-        Electoral Record
+        Ballotpedia
       </a>
     </p>
   </div>
-  <div class="col">
+
+  <div class="col d-flex align-items-center">
+    <p>
+      <a href="{{candidate.Facebook}}">
+        Facebook
+      </a>
+    </p>
+  </div>
+  <div class="col d-flex align-items-center">
+    <p>
+      <a href="{{candidate.Instagram}}">
+        Instagram
+      </a>
+    </p>
+  </div>
+  <div class="col d-flex align-items-center">
+    <p>
+      <a href="{{candidate.X}}">
+        Twitter
+      </a>
+    </p>
+  </div>
+
+  <div class="col d-flex align-items-center">
     <p>
       <a href="{{candidate.ActBlue}}">
         Donate
