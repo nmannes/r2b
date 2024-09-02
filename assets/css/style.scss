@@ -128,24 +128,21 @@ body {
   
   div {
     p {
-      color: black;
       text-wrap: nowrap;
       text-align: center;
       margin: 10px;
-    };
-    a {
-      img {
-        fill: $primary;
-      }
+      color: $primary;
     }
   }
 
   div:first-of-type {
     p {
-      color: black;
       text-wrap: nowrap;
       text-align: left;
       margin: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 }
