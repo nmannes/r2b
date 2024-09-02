@@ -132,6 +132,11 @@ body {
       text-wrap: nowrap;
       text-align: center;
       margin: 10px;
+    };
+    a {
+      img {
+        fill: $primary;
+      }
     }
   }
 
