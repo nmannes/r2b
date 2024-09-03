@@ -10,7 +10,10 @@
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    h1 {
+      padding: 0px;
+      margin: 0px;
+    }
   }
   &.header-absolute {
     position: absolute;
