@@ -4,7 +4,11 @@
   <div class="name">
     <p>
       <a href="{{candidate.campaign-website}}">
+        {% if (candidate.First.size + candidate.Last.size) <= 15 %}
         {{candidate.First}} {{candidate.Last}}
+        {% else %}
+        {{candidate.Last}}
+        {% endif %}
       </a>
     </p>
   </div>
