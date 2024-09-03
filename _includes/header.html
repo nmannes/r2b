@@ -5,6 +5,25 @@
       <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
     </div>
     {% include main-menu.html %}
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search candidates..">
+      </input>
+      <ul id="results-container">
+      </ul>
+    </div>
     {% include hamburger.html %}
   </div>
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>',
+      json: '/search.json'
+
+    })
+  </script>
 </div>
+
+
