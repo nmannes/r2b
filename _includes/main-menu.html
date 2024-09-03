@@ -1,4 +1,5 @@
 <div id="main-menu" class="main-menu">
+  <ul>
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
