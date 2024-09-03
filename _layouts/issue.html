@@ -9,8 +9,8 @@ bodyClass: "page-service"
         <h1 class="title">{{page.title}}</h1>
 
         {% if page.intro_image %}
-        <div class="col title-image">
-          <img src="{{'/images/environment.jpg'}}" />
+        <div class="col title-image d-none d-lg-block">
+          <img src="{{ page.intro_image | relative_url }}" />
         </div>
         {% endif %}
         <div class="content col">{{content}}</div>
