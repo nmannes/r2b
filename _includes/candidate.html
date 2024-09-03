@@ -1,14 +1,14 @@
 
 {% assign candidate = include['candidate'] %}
-<div class="row justify-content-between candidate">
-  <div class="col-sm-2">
+<div class="col-6 grid-layout">
+  <div class="name">
     <p>
       <a href="{{candidate.campaign-website}}">
         {{candidate.First}} {{candidate.Last}}
       </a>
     </p>
   </div>
-  <div class="col-sm-1">
+  <div class="race">
     {% if candidate.District.size == 2 %}
       <p>Sen-{{candidate.District}} </p>
     {% else %}
@@ -16,7 +16,7 @@
     {% endif %}
   </div>
 
-  <div class="col-sm-2">
+  <div class="bp">
     <p>
       <a href="{{candidate.Ballotpedia}}">
         Ballotpedia
@@ -24,21 +24,21 @@
     </p>
   </div>
 
-  <div class="col-sm-2">
+  <div class="fb">
     <a href="{{candidate.Facebook}}">
       <p>
         Facebook
       </p>
     </a>
   </div>
-  <div class="col-sm-2">
+  <div class="insta">
     <p>
       <a href="{{candidate.Instagram}}">
         Instagram
       </a>
     </p>
   </div>
-  <div class="col-sm-1">
+  <div class="xcom">
     <p>
       <a href="{{candidate.X}}">
         X.com
@@ -46,7 +46,7 @@
     </p>
   </div>
 
-  <div class="col-sm-1">
+  <div class="actblue">
     <p>
       <a href="{{candidate.ActBlue}}">
         Donate
