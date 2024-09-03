@@ -125,11 +125,29 @@ body {
 
 .grid-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   /* This is better for small screens, once min() is better supported */
   /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+  grid-template-rows: minmax(50px, 20%);
   gap: 1rem;
   border: 1px solid black;
   border-radius: 8px;
   padding: 12px;
+
+  div {
+    border: 1px solid black;
+  }
+  p {
+    margin: auto;
+    padding: auto;
+  }
+
+  .name {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .fb, .insta, .xcom, .actblue {
+    grid-row: 2;
+  }
 }

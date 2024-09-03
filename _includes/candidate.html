@@ -1,6 +1,6 @@
 
 {% assign candidate = include['candidate'] %}
-<div class="col-5 grid-layout">
+<div class="col-lg-5 grid-layout">
   <div class="name">
     <p>
       <a href="{{candidate.campaign-website}}">
@@ -17,40 +17,34 @@
   </div>
 
   <div class="bp">
-    <p>
-      <a href="{{candidate.Ballotpedia}}">
-        Ballotpedia
-      </a>
-    </p>
+    <a href="{{candidate.Ballotpedia}}">
+      <img src="{{'/images/record.svg'}}"/>
+    </a>
   </div>
 
   <div class="fb">
     <a href="{{candidate.Facebook}}">
-      <p>
-        Facebook
-      </p>
+      <img src="{{'/images/facebook.svg'}}"/>
     </a>
   </div>
   <div class="insta">
     <p>
       <a href="{{candidate.Instagram}}">
-        Instagram
+        <img src="{{'/images/instagram.svg'}}"/>
       </a>
     </p>
   </div>
   <div class="xcom">
-    <p>
+
       <a href="{{candidate.X}}">
-        X.com
+        <img src="{{'/images/twitter.svg'}}"/>
       </a>
-    </p>
+
   </div>
 
   <div class="actblue">
-    <p>
       <a href="{{candidate.ActBlue}}">
-        Donate
+        <img src="{{'/images/actblue.svg'}}"/>
       </a>
-    </p>
   </div>
 </div>
