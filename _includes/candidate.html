@@ -4,10 +4,11 @@
   <div class="name">
     <p>
       <a href="{{candidate.campaign-website}}">
-        {% if (candidate.First.size + candidate.Last.size) <= 15 %}
-        {{candidate.First}} {{candidate.Last}}
+        {% assign badNames = "Debbie Marie Missy" | split: " " %}
+        {% if badNames contains candidate.First%}
+          {{ candidate.Last }}
         {% else %}
-        {{candidate.Last}}
+          {{ candidate.First }} {{ candidate.Last }}
         {% endif %}
       </a>
     </p>
