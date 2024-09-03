@@ -2,7 +2,7 @@
 title: "Environment"
 date: 2018-11-18T12:33:46+10:00
 weight: 1
-intro_image: "/images/abortion.jpg"
+intro_image: "/images/environment.jpg"
 
 ---
 

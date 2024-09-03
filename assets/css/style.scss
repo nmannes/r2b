@@ -150,6 +150,7 @@ body {
   .race {
     text-align: right;
     grid-column: 5;
+    font-size: min(2vw, 24px);
   }
 
   .fb, .insta, .xcom, .actblue, .bp {
@@ -160,4 +161,8 @@ body {
       min-height: 64px;
     }
   }
+}
+
+.title-image img {
+  max-width: 100%;
 }
