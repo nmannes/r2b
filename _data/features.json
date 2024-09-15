@@ -6,7 +6,8 @@
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
       "height": 80
-    }
+    },
+    "icon": "fa-solid fa-magnifying-glass-chart"
   },
   {
     "title": "Vetted Candidates",
@@ -15,7 +16,8 @@
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
       "height": 80
-    }
+    },
+    "icon": "fa-solid fa-book"
   },
   {
     "title": "Timely Updates",
@@ -24,6 +26,7 @@
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
       "height": 80
-    }
+    },
+    "icon": "fa-solid fa-clock"
   }
 ]
