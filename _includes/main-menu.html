@@ -6,5 +6,23 @@
       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
     </li>
     {% endfor %}
+    <li>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search candidates..">
+        </input>
+        <ul id="results-container">
+        </ul>
+      </div>
+    </li>
   </ul>
 </div>
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>',
+    json: '/search.json'
+
+  })
+</script>
