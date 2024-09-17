@@ -1,6 +1,11 @@
 <div class='header'>
   <div class="container">
+
+    {% if jekyll.environment == "production" %}
+    <a href="/r2b">
+    {% else %}
     <a href="/">
+    {% endif %}
       <h1>Road to Blue</h1>
     </a>
     <div class="logo-mobile">
