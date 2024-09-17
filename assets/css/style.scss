@@ -171,6 +171,10 @@ body {
 #results-container{
   position: absolute;
   list-style-type: none;
+  z-index: 10;
+  li {
+    fill: white;
+  }
 }
 
 .search-container {

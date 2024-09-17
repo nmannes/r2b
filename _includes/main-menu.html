@@ -22,7 +22,10 @@
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>',
-    json: '/search.json'
-
+    {% if jekyll.environment == "production" %}
+    json: '/r2b/search.json',
+    {% else %}
+      json: '/search.json',
+    {% endif %}
   })
 </script>
