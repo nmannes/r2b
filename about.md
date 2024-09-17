@@ -2,7 +2,6 @@
 title: About
 layout: page
 description: About
-bodyClass: page-about
 ---
 
 # Some notes on methodology

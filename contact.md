@@ -1,10 +1,10 @@
 ---
 title: Contact
-layout: contact
+layout: page
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+We are accessible by [Phone](tel:2028416839) or [Email](mailto:josh@blueimpactstrategies.com') during the following hours:
 
 | Day       | Operating Hours |
 | --------- | --------------- |
