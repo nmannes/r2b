@@ -9,4 +9,4 @@ intro_image_hide_on_mobile: true
 
 # Here, we elect Democrats
 
-At Road to Blue, we make it easy to make an impact and support candidates passionate about the change you want to see in the world. Our team of experienced political analysts has created comprehensive reviews and candidate profiles to provide comprehensive guidance when selecting your cause of choice.
+At Road to Blue, we make it easy to drive change and support candidates passionate about what you want to see in the world. Our team of experienced political analysts has created comprehensive reviews and candidate profiles to provide comprehensive guidance when selecting your cause of choice.
