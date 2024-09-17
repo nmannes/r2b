@@ -8,22 +8,21 @@ bodyClass: "page-home"
     <div class="row justify-content-start">
 
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" 
-        class="intro-image
+      <div
+        class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt="{{ page.title }}" class="intro-image
         {% if page.intro_image_absolute %} 
         intro-image-absolute
         {% endif %}
         {% if page.intro_image_hide_on_mobile %} 
         intro-image-hide-mobile
-        {% endif %}"
-        src="{{ page.intro_image | relURL }}" />
+        {% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
-          {% include call.html show_button=true %}
+        {% include call.html show_button=true %}
         {% endif %}
       </div>
     </div>
@@ -41,7 +40,8 @@ bodyClass: "page-home"
             <h2 class="service-title">
               <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ service.excerpt | markdownify | strip_html | truncate: 50 }}
+            </p>
           </div>
         </div>
       </div>
@@ -49,7 +49,8 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "issues" | relative_url }}">View All Issues</a>
+        <a class="button button-primary" href="{{ " issues" | relative_url
+          }}">View All Issues</a>
       </div>
     </div>
   </div>
@@ -63,7 +64,7 @@ bodyClass: "page-home"
       {% for feature in site.data.features %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
-          
+
           <div class="feature-image">
             <i class="{{feature.icon}} fa-4x"></i>
           </div>
@@ -71,8 +72,8 @@ bodyClass: "page-home"
             <img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}"
              width="{{ feature.image.width }}" height="{{ feature.image.height }}" />
             </div>
-          --> 
-         <h2 class="feature-title">{{ feature.title }}</h2>
+          -->
+          <h2 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>
         </div>
       </div>
