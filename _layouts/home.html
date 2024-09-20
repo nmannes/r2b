@@ -31,15 +31,18 @@ bodyClass: "page-home"
 
 <div class="strip">
   <div class="container-fluid">
-    <div class="row justify-content-start">
       {% assign limit = site.home.limit_issues | default: 3 %}
       {% for service in site.issues limit: limit %}
-        <div class="viewport-block bg-1">
-          
+      <div class="viewport-block bg-1 row">
+        <div class="text-content col-12 col-12-sm col-6-md col-6-lg col-xl-6">
+              <p>{{service.slug}}</p>
+          </div>
+          <div class="image-content col-12 col-12-sm col-6-md col-6-lg col-xl-6">
+            <img src="{{'/images/actblue.svg' | relative_url}}"/>
+          </div>
         </div>
       </div>
       {% endfor %}
-  </div>
 </div>
 
 {% if site.data.features %}
@@ -54,11 +57,6 @@ bodyClass: "page-home"
           <div class="feature-image">
             <i class="{{feature.icon}} fa-4x"></i>
           </div>
-          <!--<div class="feature-image">
-            <img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}"
-             width="{{ feature.image.width }}" height="{{ feature.image.height }}" />
-            </div>
-          -->
           <h2 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>
         </div>

@@ -1,0 +1,372 @@
+commit 902d655803c22298221a6192c287e511c910053f
+Author: nmannes <nmannes@gmail.com>
+Date:   Thu Sep 19 17:39:33 2024 -0400
+
+    fix bg image scaling later
+
+commit 788489b24187d12e8e195cab4b30bff009450ffb
+Author: nmannes <nmannes@gmail.com>
+Date:   Thu Sep 19 12:12:15 2024 -0400
+
+    ignnore teams page
+
+commit 519c08207e1a1fc287b3ff1cb53a9237747e28c7
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:59:41 2024 -0400
+
+    fill better
+
+commit 7bcf430d4e2c739d24b59d3d0ccba00172ef45f2
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:46:45 2024 -0400
+
+    abcd
+
+commit 199d4a9c0173dd0d40e788d3eac543c66ce2a7e6
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:41:16 2024 -0400
+
+    make the team page a lil better
+
+commit 7c992d960d314d937aae4ec242da872ac43f38bb
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:30:49 2024 -0400
+
+    adding files
+
+commit 7bd4938e410d3699285b71ef69c9aa0c8bab4868
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:20:35 2024 -0400
+
+    add new json file
+
+commit 46d83c5d748d8682dc09b97353f1ffec0514a70f
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:19:35 2024 -0400
+
+    update copy
+
+commit fc847a87a75b31b8010cd510e2beecec437f52dd
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:11:19 2024 -0400
+
+    truncate text sooner
+
+commit b91e4e92d03f1df56cbdf46d49dcb12d92b0880d
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 14:09:28 2024 -0400
+
+    style of top bar
+
+commit 770277aa7dfb68c1f72bee9223d91a3bf0578fdf
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 10:19:55 2024 -0400
+
+    re-style search bar
+
+commit 7087b49fdfa0b0935b3871191b82dded29d1b9f7
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 10:19:08 2024 -0400
+
+    fix search.json
+
+commit f706cb54b11d2fabf81cacc06b0383ae1937eb04
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 10:17:53 2024 -0400
+
+    update copy and seo
+
+commit ba47209cafab5972733bfd514888c09b2ba8aff3
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 09:52:16 2024 -0400
+
+    update copy
+
+commit 745e61f69343a923e5f0f2efe5c7f684c7647380
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 17 09:33:30 2024 -0400
+
+    fix header on site
+
+commit 81753e3310fabb7cec21170669d5aaffab1d30fc
+Author: nmannes <nmannes@gmail.com>
+Date:   Sat Sep 14 21:21:18 2024 -0400
+
+    use fontawesome iconography
+
+commit 8b65a2590c4581b01e4a2163bb9cd973af75055c
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 12:17:10 2024 -0500
+
+    add anchor tag to h1 title
+
+commit dc89d8beeaacc4ce37d80bc7b5cc3e30abc3d843
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 12:15:27 2024 -0500
+
+    fix long names
+
+commit e2371f876de36bdabf394221ae5f5fd1c9cf6db4
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 12:06:52 2024 -0500
+
+    fixing search
+
+commit 69c2841e9ef40a9cf71c2596d5bd75d2deec2314
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 11:50:29 2024 -0500
+
+    added ul back in
+
+commit 57d63b406de13add87a1425358d58cbe6133f7c8
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 11:47:49 2024 -0500
+
+    search
+
+commit 37b0033c256e161da77493b6cbb41533efc5cd07
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 11:45:21 2024 -0500
+
+    search is coming along?
+
+commit 45a6ce35f995adb2a8e3980c6b86240769db0860
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 11:12:59 2024 -0500
+
+    fix labor photo
+
+commit 6f28cbedc65a44dc5abd77cf5721fcaa071034b6
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 11:10:30 2024 -0500
+
+    add union art?
+
+commit ae7c924046ea96d0ec550dcb615fd842a77b6d90
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 10:56:22 2024 -0500
+
+    minor fixes
+
+commit e1c223eaeeb2e5e38d31b75758341cfbe9ee5fce
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 10:51:51 2024 -0500
+
+    make the site cleaner and bring things closer together
+
+commit 944579961957b65f25605b7fa878a4d8789392a9
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 10:36:38 2024 -0500
+
+    add image to guns
+
+commit b35c8e0c636583d757d4a4bfeba973020d68dcd9
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 10:29:27 2024 -0500
+
+    texgt allign right the correct thing
+
+commit 36399b01f967708d2efb0473d2590ec7835a35bc
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 10:24:32 2024 -0500
+
+    fixed instagram
+
+commit ea35f0c543fd028a9e9ddddde0074a1ddda36d0d
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 10:07:20 2024 -0500
+
+    need relative urls
+
+commit b353d13aed9f293c618e71674d5e1371e4c6f8a0
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 10:05:50 2024 -0500
+
+    looks better
+
+commit 54880fb3e03178a88c79bf8864e5bfac70b34e78
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 09:48:30 2024 -0500
+
+    add anenvironment photo
+
+commit e06036ee20b4b777e9174a2ce997246b7c47954c
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 09:48:19 2024 -0500
+
+    sorry to the candidates with long names
+
+commit 705912206dcf6e706d1966ea91ea8682b1aa56f7
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 09:18:11 2024 -0500
+
+    sorry to the candidates with long names
+
+commit f0cde2702dfc5a262929c65d1efe51b1df90d82c
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 08:56:53 2024 -0500
+
+    improving cards
+
+commit 66b8938269a5b94f927707d5c02df23e575daf51
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 08:37:55 2024 -0500
+
+    instagram icon looks good
+
+commit 1c45730d41c2e969740f058e623ea93a3c51a018
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 08:01:43 2024 -0500
+
+    icons fixed
+
+commit 094c9474f3cbe3241dd9ae354aca97f939622b89
+Author: nmannes <nmannes@gmail.com>
+Date:   Tue Sep 3 07:38:49 2024 -0500
+
+    added a bunch of svgs
+
+commit 92abff4998f9ca8258c300c41699ebb7cda95843
+Author: nmannes <nmannes@gmail.com>
+Date:   Mon Sep 2 21:37:54 2024 -0500
+
+    grid layout now!
+
+commit 9f1daf49b5d36f68a5ec62b48e04f87fb0bef39c
+Author: nmannes <nmannes@gmail.com>
+Date:   Mon Sep 2 21:15:17 2024 -0500
+
+    turn it into grid
+
+commit 3e1475c438c7377d3f4fc6a6feb9bd3a0cf66d79
+Author: nmannes <nmannes@gmail.com>
+Date:   Mon Sep 2 21:10:26 2024 -0500
+
+    time to do grid layouts
+
+commit f50b83347a56383bf5fcf11d4e2339e88d8b4e66
+Author: nmannes <nmannes@gmail.com>
+Date:   Mon Sep 2 21:06:55 2024 -0500
+
+    abortion pic added
+
+commit 8005b6b27fc20e2dab6c10d53676628e11d997fb
+Author: nmannes <nmannes@gmail.com>
+Date:   Sun Sep 1 19:50:00 2024 -0500
+
+    truncate with ...
+
+commit a966c955b3c038e830fd36d1c80e7cff245d1325
+Author: nmannes <nmannes@gmail.com>
+Date:   Sun Sep 1 19:41:24 2024 -0500
+
+    npm installed the searching
+
+commit 6fc2b164fbe8dec9981e4415124044e8b1bf7315
+Author: nmannes <nmannes@gmail.com>
+Date:   Sun Sep 1 19:41:08 2024 -0500
+
+    candiate changes
+
+commit 92dcad1bdac06b02f1aba383ff3814c7fb6483c7
+Author: nmannes <nmannes@gmail.com>
+Date:   Sun Sep 1 19:16:52 2024 -0500
+
+    make the candidate lists nicer
+
+commit d3471e6bef84115f18a028835feb08d04164d2df
+Author: nmannes <nmannes@gmail.com>
+Date:   Sun Sep 1 10:44:13 2024 -0500
+
+    delete unused photos
+
+commit 354f96cac6d7582562fcdab6860a1361c4aaf0c0
+Author: nmannes <nmannes@gmail.com>
+Date:   Thu Aug 22 09:45:17 2024 -0500
+
+    updateing site
+
+commit fab6e42d5a7c75e9755217a84acf672d138aae8a
+Author: nmannes <nmannes@gmail.com>
+Date:   Thu Aug 22 09:29:27 2024 -0500
+
+    copy and placeholder
+
+commit b75de6c0fdf6ab6f151fb9fe3c82da06eb25897d
+Author: nmannes <nmannes@gmail.com>
+Date:   Thu Aug 22 09:12:33 2024 -0500
+
+    site
+
+commit c675611188f065cf78b896e5383832c4d7aea7e7
+Author: nmannes <nmannes@gmail.com>
+Date:   Thu Aug 22 08:50:06 2024 -0500
+
+    screen size
+
+commit 625f3c3c1d4496248aed7463fd95ad798dbe3036
+Author: nmannes <nmannes@gmail.com>
+Date:   Thu Aug 22 08:19:58 2024 -0500
+
+    copy
+
+commit 6ca8938410988e904b73f73d47d78aa2eaa80b44
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 14:24:45 2024 -0500
+
+    fix the teams page
+
+commit 40aefe4a33bed235e72ac74dad22cbe51c09eedb
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 14:19:57 2024 -0500
+
+    copy
+
+commit 543b4b006f8bc291bd6da59d03ef30d860bb888c
+Merge: f7cea13 54d7d9a
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 14:15:37 2024 -0500
+
+    Merge branch 'main' of github.com:nmannes/r2b
+
+commit f7cea13d53064ffe5b844865380b51315e07ffaf
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 14:13:58 2024 -0500
+
+    copy
+
+commit 54d7d9a748ab2ca5d68f3fdd10cdfc4599c26d0b
+Author: Nathan Mannes <nmannes@gmail.com>
+Date:   Wed Aug 21 14:09:36 2024 -0500
+
+    Create jekyll.yml
+
+commit 906f703819fd2ecfa90196c7daf640ca9b2fcb06
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 14:04:16 2024 -0500
+
+    update gemfile?
+
+commit 4b854290a46f902add69df3b89819a24ba715a7a
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 14:01:53 2024 -0500
+
+    update gemfile?
+
+commit 0c7eaf5738d1139c368b607d466285424618ee7c
+Author: Nathan Mannes <nmannes@gmail.com>
+Date:   Wed Aug 21 13:54:55 2024 -0500
+
+    Update README.md
+
+commit 11fc86d4f1ff425ba3c869a329c36b947370e610
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 13:52:33 2024 -0500
+
+    commit
+
+commit 501731ac50fd92c9f0de18d44b980e7cc80c4da3
+Author: nmannes <nmannes@gmail.com>
+Date:   Wed Aug 21 13:50:22 2024 -0500
+
+    first commit
