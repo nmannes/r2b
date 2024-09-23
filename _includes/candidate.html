@@ -1,10 +1,10 @@
 
 {% assign candidate = include['candidate'] %}
-<div class="col-lg-5 col-sm-10 col-md-10 col-10 grid-layout">
+<div class="col-lg-5 col-sm-10 col-md-8 col-10 grid-layout">
   <div class="name">
     <p>
       <a href="{{candidate.campaign-website}}">
-        {% assign badNames = "Debbie Marie Missy" | split: " " %}
+        {% assign badNames = "Debbie Marie Missy Kristen" | split: " " %}
         {% if badNames contains candidate.First%}
           {{ candidate.Last }}
         {% else %}

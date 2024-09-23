@@ -5,7 +5,7 @@ layout: none
   {% for cand in site.data.candidates %}
     {
       "title"    : "{{ cand.First | escape }} {{ cand.Last | escape }}",
-      "url"      : "{{ site.baseurl }}"
+      "url"      : "{{ site.baseurl }}/elected"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

@@ -3,7 +3,7 @@ layout: default
 bodyClass: "page-service"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+<div class="container-fluid pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row gap-3 justify-content-center">
       <div class="service service-single row">
         <h1 class="title">{{page.title}}</h1>
@@ -18,6 +18,11 @@ bodyClass: "page-service"
 
       {% assign candidates = site.data.candidates | sample: 10 %}
       {% for cand in candidates %}
+        {% assign idx = forloop.index0 %}
+        {% assign result = idx modulo: 3%}
+        {% if result == 0 %}
+          <div class="viewport-block-4 bg-1"></div>
+        {% endif %}
         {% include candidate.html candidate=cand %}
       {% endfor %}
     </div>
