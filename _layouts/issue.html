@@ -19,9 +19,9 @@ bodyClass: "page-service"
       {% assign candidates = site.data.candidates | sample: 10 %}
       {% for cand in candidates %}
         {% assign idx = forloop.index0 %}
-        {% assign result = idx modulo: 3%}
+        {% assign result = idx | modulo: 2%}
         {% if result == 0 %}
-          <div class="viewport-block-4 bg-1"></div>
+          <div class="viewport-block-2 bg-1"></div>
         {% endif %}
         {% include candidate.html candidate=cand %}
       {% endfor %}
