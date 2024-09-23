@@ -197,3 +197,11 @@ body {
     margin: 0;
   }
 }
+
+
+.headshot {
+  object-fit: cover;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+}

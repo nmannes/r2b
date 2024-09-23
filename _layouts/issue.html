@@ -15,15 +15,11 @@ bodyClass: "page-service"
         {% endif %}
         <div class="content col">{{content}}</div>
       </div>
-      {% assign priorities = "1 2 3" | split: " " %}
-      {% for i in priorities %}
-        <h1>Priority {{i}} </h1>
-        {% for cand in site.data.candidates %}
-          {% if cand[page.name] == i %}
-            {% include candidate.html candidate=cand %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %}      
+
+      {% assign candidates = site.data.candidates | sample: 10 %}
+      {% for cand in candidates %}
+        {% include candidate.html candidate=cand %}
+      {% endfor %}
     </div>
   </div>
 </div>
