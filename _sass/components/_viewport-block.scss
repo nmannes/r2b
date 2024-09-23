@@ -10,9 +10,8 @@
 }
 
 .text-content, .image-content {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
  
   p {
     padding: auto;
@@ -29,8 +28,6 @@
   img { 
     margin: auto; 
     padding: auto;
-    max-width: 50%;
-    max-height: 50%;
   }
 }
 

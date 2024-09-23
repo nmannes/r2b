@@ -34,10 +34,10 @@ bodyClass: "page-home"
       {% assign limit = site.home.limit_issues | default: 3 %}
       {% for service in site.issues limit: limit %}
       <div class="viewport-block bg-1 row">
-        <div class="text-content col-12 col-12-sm col-6-md col-6-lg col-xl-6">
+        <div class="text-content col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <p>{{service.slug}}</p>
           </div>
-          <div class="image-content col-12 col-12-sm col-6-md col-6-lg col-xl-6">
+          <div class="image-content col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <img src="{{'/images/actblue.svg' | relative_url}}"/>
           </div>
         </div>
