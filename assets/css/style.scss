@@ -230,3 +230,12 @@ body {
 #red-link {
   color: red;
 }
+
+.sb-flexbox {
+  display: flex;
+  justify-content: space-between;
+  a {
+    margin: 0;
+    padding: 0;
+  }
+}
