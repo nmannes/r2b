@@ -6,5 +6,3 @@ permalink: "/team/"
 intro_image: "images/sad-bill.png"
 intro_image_hide_on_mobile: false
 ---
-
-# Meet The Team
