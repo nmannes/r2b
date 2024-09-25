@@ -37,14 +37,14 @@ bodyClass: "page-home"
       {% for service in site.issues limit: limit %}
       <div class="viewport-block bg-1 row">
         <div class="text-content col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <p>{{service.slug}}</p>
-          </div>
-          <div class="image-content col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img src="{{'/images/actblue.svg' | relative_url}}"/>
-          </div>
+          <p>{{service.slug}}</p>
+        </div>
+        <div class="image-content col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <img src="{{'/images/actblue.svg' | relative_url}}"/>
         </div>
       </div>
       {% endfor %}
+    </div>
 </div>
 
 {% if site.data.features %}
