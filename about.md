@@ -3,7 +3,6 @@ title: About
 layout: page
 description: About
 ---
-# About
 
 Let's face it; campaigns are exhausting. Knowing who has a real chance at winning and which candidates are worth laying down your life for or dare we say, your dollars, is about as tough as figuring out how to tell your spouse that your mother's meatloaf recipe is the best. Road to Blue is here to make this frustrating process just a bit more simple. Using industry experts, electoral trends and quite frankly, some common sense,  we are here to take the guess work out of picking which candidates you should fund.  
 
