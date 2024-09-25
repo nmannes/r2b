@@ -3,19 +3,10 @@ title: About
 layout: page
 description: About
 ---
+# About
 
-# Some notes on methodology
+Let's face it; campaigns are exhausting. Knowing who has a real chance at winning and which candidates are worth laying down your life for or dare we say, your dollars, is about as tough as figuring out how to tell your spouse that your mother's meatloaf recipe is the best. Road to Blue is here to make this frustrating process just a bit more simple. Using industry experts, electoral trends and quite frankly, some common sense,  we are here to take the guess work out of picking which candidates you should fund.  
 
-The main content on our site is that we group candidates by tier for a given issue. For each of these issues, we have Democratic candidates given a certain priority level. This page explains what we mean when we put a candidate at a given level.
+If you are sick of wondering which candidates are trying to pry the gun from your cold dead hands, or which are just trying to make it a bit harder for 10 year olds to start militias, you have found your home. If you are concerned that the earth may not be around when you finally have that final date on Tinder that leads to a life long partnership, and want to make sure your hard earned dollars are going to candidates who are actively talking about climate change (yeah we said it), then you are in the right place. 
 
-## Priority 1
-
-A Priority 1 candidate supports the cause and their voting record reflects a deep commitment to it. These candidates are often seen as champions of the most critical issues, making them the top choices for fundraising efforts. Methodologically, the selection of Priority 1 candidates involves an in-depth analysis of voting records, public statements, and policy positions. This tier is often reserved for candidates who consistently align with the organization’s top priorities and demonstrate the capacity to effect meaningful change in line with those values.
-
-## Priority 2
-
- While not as closely aligned as Priority 1 candidates, Priority 2 candidates have similar ideological leanings for a given issue, though there may be differences in emphasis or approach. These candidates are important allies who can help push forward parts of the agenda, even if they are not as steadfast or comprehensive in their alignment. The process for identifying Priority 2 candidates includes evaluating their stances on the issues, their past performance, and their likelihood of influence on secondary but still significant issues. This tier often includes candidates who are open to collaboration or have potential for deeper alignment over time.
-
-## Priority 3
-
-Candidates in this tier share some values with the organization but may diverge on key issues or have a more limited capacity to advance its overall mission. These candidates may be pragmatically supported for strategic reasons, such as expanding geographic or demographic reach, but they are not seen as central to the organization's long-term goals. Identifying Priority 3 candidates involves analyzing the broader context in which they operate, such as the political environment or their role in coalition-building. They are often seen as having potential to support less critical aspects of the platform or as candidates to watch for future development.
+And if you are as concerned as we are about why certain politicians insist on sitting in the corner of your OBGYN's office, then you definitely are in the right place. And if anything in this introduction has offended you, we invite you to visit [the opposition](https://www.gop.com) (but maybe use private browsing so you are spared the targeted ads). 
