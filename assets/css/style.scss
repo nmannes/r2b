@@ -251,3 +251,20 @@ body {
   color: black;
   opacity: 1; /* Firefox */
 }
+
+.profile-header {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  h1, h2 {
+    color: white;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+  }
+}
