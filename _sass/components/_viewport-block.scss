@@ -1,15 +1,15 @@
 .viewport-block {
-  width: 100vw;
+  max-width: 100vw;
   height: 75vh;
   padding: 0;
   margin: 0;
 }
 
 .viewport-block-2 {
-  width: 100vw;
+  max-width: 100vw;
   height: 50vh;
-  padding: 0;
-  margin: 0;
+  margin: auto;
+  padding: auto;
 }
 
 .text-content, .image-content {
