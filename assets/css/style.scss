@@ -271,7 +271,7 @@ body {
 
 .scores {
   
-  background-color: white;
+  background-color: #5d3fd3;;
   margin: 0px;
   padding: 0px;
   
@@ -292,4 +292,23 @@ body {
 }
 .score-label-wrapper {
   max-width: 100px;
+}
+
+#mychart {
+  --aspect-ratio: 3/2;
+  @include media-breakpoint-up(sm) {
+    --aspect-ratio: 2;
+  }
+  @include media-breakpoint-up(md) {
+    --aspect-ratio: 3;
+  }
+  @include media-breakpoint-up(lg) {
+    --aspect-ratio: 4;
+  }
+  @include media-breakpoint-up(xl) {
+    --aspect-ratio: 4;
+  }
+  td {
+    text-wrap: nowrap;
+  }
 }
