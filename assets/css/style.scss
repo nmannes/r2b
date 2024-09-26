@@ -172,8 +172,10 @@ body {
   position: absolute;
   list-style-type: none;
   z-index: 10;
+  background-color: white;
   li {
     fill: white;
+    padding: 0px 12px;
   }
 }
 
@@ -181,7 +183,6 @@ body {
   margin: auto 0px;
   input {
     margin: auto;
-    margin-left: 12px;
   }
 }
 
@@ -219,7 +220,7 @@ body {
 }
 
 #wrapper {
-  background-color: cornflowerblue;
+  background-color: #5D3FD3;
 }
 
 .candidate {
@@ -238,4 +239,13 @@ body {
     margin: 0;
     padding: 0;
   }
+}
+
+#search-input {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
 }
