@@ -323,7 +323,11 @@ body {
 .links {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0px;
+  padding: 24px 12px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 24px 0px;
 
   @include media-breakpoint-up(md) {
     width: 50%;
@@ -338,7 +342,6 @@ body {
   .fb, .insta, .xcom, .actblue, .bp {
     img {
       min-height: 64px;
-      background-color: white;
     }
   }
 }
