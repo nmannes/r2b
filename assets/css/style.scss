@@ -296,7 +296,7 @@ body {
 }
 
 #mychart {
-  --aspect-ratio: 3/2;
+  --aspect-ratio: 2;
   @include media-breakpoint-up(sm) {
     --aspect-ratio: 2;
   }
@@ -307,7 +307,7 @@ body {
     --aspect-ratio: 4;
   }
   @include media-breakpoint-up(xl) {
-    --aspect-ratio: 4;
+    --aspect-ratio: 5;
   }
   td {
     text-wrap: nowrap;
@@ -318,4 +318,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+
+  @include media-breakpoint-up(md) {
+    width: 50%;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 50%;
+  }
+  @include media-breakpoint-up(xl) {
+    width: 50%;
+  }
+
+  .fb, .insta, .xcom, .actblue, .bp {
+    img {
+      min-height: 64px;
+      background-color: white;
+    }
+  }
 }
