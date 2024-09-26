@@ -17,7 +17,7 @@ bodyClass: "page-service"
    </div>
 </div>
 
-{% assign candidates = site.data.candidates | sample: 10 %}
+{% assign candidates = site.data.candidates | sample: 10s %}
 <div class="container-fluid">
 
    {% for cand in candidates %}
@@ -32,4 +32,8 @@ bodyClass: "page-service"
    </div>
    {% endif %}
    {% endfor %}
+
+   {% if candidates | size | modulo: 2 == 1 %}
+</div>
+{% endif %}
 </div>
