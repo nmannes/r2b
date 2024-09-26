@@ -1,0 +1,24 @@
+<div class="scores">
+  {% assign cats = "Environment Middle-East Guns Labor Abortion" | split: " " %}
+
+  <table class="charts-css 
+    bar hide-data 
+    show-data-on-hover 
+    data-start reverse-labels 
+    reverse-data show-primary-axis 
+    show-1-secondary-axes 
+    data-spacing-4">
+    {% for category in cats %}
+    {% assign bar = forloop.index | times: 0.2 %}
+    {% assign bar_key = bar | append: "" %}
+    <tr>
+      <td class="score" style="--size: {{bar}};
+      --color: {{site.data.bargraph[bar_key]}}
+      ">{{category}} </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+
+
+</div>
