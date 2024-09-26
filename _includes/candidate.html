@@ -1,4 +1,3 @@
-
 {% assign candidate = include['candidate'] %}
 <div class="candidate col-lg-5 col-sm-10 col-md-8 col-10 grid-layout">
   <div class="name">
@@ -6,49 +5,49 @@
       <a href="{{candidate.campaign-website}}">
         {% assign badNames = "Debbie Marie Missy Kristen" | split: " " %}
         {% if badNames contains candidate.First%}
-          {{ candidate.Last }}
+        {{ candidate.Last }}
         {% else %}
-          {{ candidate.First }} {{ candidate.Last }}
+        {{ candidate.First }} {{ candidate.Last }}
         {% endif %}
       </a>
     </p>
   </div>
   <div class="race">
     {% if candidate.District.size == 2 %}
-      <p>Sen-{{candidate.District}} </p>
+    <p>Sen-{{candidate.District}} </p>
     {% else %}
-      <p>{{candidate.District}} </p>
+    <p>{{candidate.District}} </p>
     {% endif %}
   </div>
 
   <div class="bp">
     <a href="{{candidate.Ballotpedia}}">
-      <img src="{{'/images/record.svg' | relative_url}}"/>
+      <img src="{{'/images/record.svg' | relative_url}}" />
     </a>
   </div>
 
   <div class="fb">
     <a href="{{candidate.Facebook}}">
-      <img src="{{'/images/facebook.svg' | relative_url}}"/>
+      <img src="{{'/images/facebook.svg' | relative_url}}" />
     </a>
   </div>
-  
+
   <div class="insta">
     <a href="https://instagram.com/{{candidate.Instagram}}">
-      <img src="{{'/images/instagram.svg' | relative_url}}"/>
+      <img src="{{'/images/instagram.svg' | relative_url}}" />
     </a>
   </div>
   <div class="xcom">
 
-      <a href="{{candidate.X}}">
-        <img src="{{'/images/twitter.svg' | relative_url}}"/>
-      </a>
+    <a href="{{candidate.X}}">
+      <img src="{{'/images/twitter.svg' | relative_url}}" />
+    </a>
 
   </div>
 
   <div class="actblue">
-      <a href="{{candidate.ActBlue}}">
-        <img src="{{'/images/actblue.svg' | relative_url}}"/>
-      </a>
+    <a href="{{candidate.ActBlue}}">
+      <img src="{{'/images/actblue.svg' | relative_url}}" />
+    </a>
   </div>
 </div>
