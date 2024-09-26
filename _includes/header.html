@@ -3,16 +3,15 @@
 
     {% if jekyll.environment == "production" %}
     <a href="/r2b">
-    {% else %}
-    <a href="/">
-    {% endif %}
-      <h1>Road to Blue</h1>
-    </a>
-    {% include main-menu.html %}
-    
-    {% include hamburger.html %}
+      {% else %}
+      <a href="/">
+        {% endif %}
+        <h1>Road to Blue</h1>
+      </a>
+      {% include main-menu.html %}
+
+      {% include hamburger.html %}
   </div>
-  <script src="https://kit.fontawesome.com/232954ba8c.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/232954ba8c.js"
+    crossorigin="anonymous"></script>
 </div>
-
-
