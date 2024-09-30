@@ -342,8 +342,28 @@ body {
 }
 
 .rowbar {
+  padding: 0px 10vw;
   
   .b-number {
     color: cornflowerblue;
   }
+}
+
+.our-services {
+  gap: 24px;
+  img {
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+  }
+  h3, p {
+    margin: 0px;
+    padding: 0px;
+  }
+  h3 {
+    font-weight: bold;
+  }
+}
+.off-color-bg{
+  background-color: whitesmoke;
 }
