@@ -377,3 +377,9 @@ body {
 .gp img {
   object-fit: contain;
 }
+
+.cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
