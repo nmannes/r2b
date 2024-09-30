@@ -3,5 +3,15 @@
     "name": "Email",
     "link": "mailto:josh@blueimpactstrategies.com ",
     "image": "images/social/email.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://instagram.com ",
+    "image": "images/social/instagram.svg"
+  },
+  {
+    "name": "X",
+    "link": "https://x.com ",
+    "image": "images/social/twitter.svg"
   }
 ]
