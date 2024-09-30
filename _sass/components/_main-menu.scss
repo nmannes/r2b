@@ -15,7 +15,7 @@
         display: inline-block;
         font-weight: normal;
         text-decoration: none;
-        color: $white-offset;
+        color: black;
         &:hover {
           text-decoration: underline;
         }
@@ -25,7 +25,7 @@
       display: inline-block;
       font-weight: normal;
       text-decoration: none;
-      color: $primary;
+      color: black;
     }
       &.active {
         > a {

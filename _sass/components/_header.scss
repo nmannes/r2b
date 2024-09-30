@@ -1,6 +1,6 @@
 .header {
-  color: $white;
-  background-color: $primary;
+  color: $black;
+  background-color: $white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     h1 {
-      color: white;
+      color: black;
       padding: 0px;
       margin: 0px;
     }
