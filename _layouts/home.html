@@ -5,44 +5,65 @@ bodyClass: "page-home"
 
 
 {% include bg-styles.html %}
-<div class="container-fluid viewport-block bg-2">
+<div class="container-fluid viewport-block bg-2" role="img"
+  alt="image of the American Flag">
 </div>
 
-<div class="strip">
+
+<div class="viewport-block-2 content">
+  <h1 class="home-title pb-2">Road to Blue</h1>
   <div class="container-fluid">
-    {% assign limit = site.home.limit_issues | default: 3 %}
-    {% for service in site.issues limit: limit %}
-    <div class="viewport-block bg-1 row">
-      <div class="text-content col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <p>{{service.slug}}</p>
+    <div class="row justify-content-around">
+      <div class="col-12 col-md-6 col-lg-4">
+
+        <p>Do you ever ask yourself which candidate you should
+          give
+          your leftover cash
+          to? That is obviously after paying your rent, buying your Starbucks,
+          and
+          releasing this week's stress with one too many drinks. Well, at Road
+          to
+          Blue, we are your one stop shop so you can take the guess work out of
+          this
+          ever so important part of your life (even more important than shooting
+          your
+          next Tik Tok).
+        </p>
       </div>
-      <div class="image-content col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <img src="{{'/images/actblue.svg' | relative_url}}" />
+      <div class="col-12 col-md-6 col-lg-4">
+
+
+        <p>
+          asdf
+        </p>
       </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
-{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-
-          <div class="feature-image">
-            <i class="{{feature.icon}} fa-4x"></i>
-          </div>
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
     </div>
   </div>
 </div>
-{% endif %}
+
+<div class="content pb-5">
+  <h1 class="home-title pb-2">
+    Advantages
+  </h1>
+  <div class="rowbar row justify-content-around">
+    <div class="col-12 col-md-3 col-lg-3 mx-3">
+      <p class="text-center fw-semibold fs-3">
+        1
+      </p>
+      <p class="text-uppercase text-center fw-bold">In-Depth Analysis</p>
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-4">
+      <p class="text-center fw-semibold fs-3">
+        2
+      </p>
+      <p class="text-uppercase text-center fw-bold">Thoughtful Reviews</p>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+      <p class="text-center fw-semibold fs-3">
+        3
+      </p>
+      <p class="text-uppercase text-center fw-bold">Detailed Information</p>
+    </div>
+
+  </div>

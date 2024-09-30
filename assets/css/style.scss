@@ -222,14 +222,13 @@ body {
 }
 
 #wrapper {
-  background-color: #5D3FD3;
+  background-color: #ffffff;
 }
 
 .candidate {
   background-color: white;
   max-height: 150px;
 }
-
 
 #red-link {
   color: red;
@@ -343,5 +342,16 @@ body {
     img {
       min-height: 64px;
     }
+  }
+}
+
+.home-title {
+  font-size: 54px;
+  text-align: center;
+}
+
+.rowbar {
+  div {
+    border: solid black 1px;
   }
 }
