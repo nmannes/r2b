@@ -1,24 +1,5 @@
 .footer {
-  background: $footer-background-color;
+  background: #008080;
   padding-top: 15px;
   padding-bottom: 15px;
-  .footer-inner {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-start;
-    @include media-breakpoint-up(sm) {
-      justify-content: space-between;
-      flex-direction: row;
-      align-items: center;
-    }
-  }
-  .footer-title {
-    color: #ffffff;
-    font-size: 1.3rem;
-    font-family: $font-family-heading;
-    font-weight: bold;
-    margin: none;
-    padding: none;
-  }
 }
