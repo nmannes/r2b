@@ -18,6 +18,19 @@
     background-size: cover;
   }
 
-
+  {% assign issues = "abortion middle-east labor guns environment" | split: " " %}
+  {% for issue in issues %}
+    {% assign idx = 0 %}
+      {% for file in site.static_files %}
+      {% assign issue_subpath = '/images/backgrounds/' | append: issue %}
+      {% if file.path contains issue_subpath %}
+        .{{issue}}-background-{{idx}}{
+          background: url("{{ file.path | relative_url}}") no-repeat center;
+          background-size: cover;
+        }
+      {% assign idx = idx | plus: 1 %}
+      {%endif%}
+    {% endfor %}
+  {% endfor %}
    
 </style>
