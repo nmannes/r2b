@@ -43,12 +43,4 @@ bodyClass: "page-service"
    {% endif %}
    {% endfor %}
 
-   {% if candidates | size | modulo: 2 == 1 %}
-</div>
-<div class="bg-image col-5
-   {% if mod_4 == 3 %}order-1{% else %}order-3{% endif %} 
-   {{page.slug}}-background-{{idx | divided_by: 2}}"></div>
-</div>
-</div>
-{% endif %}
 </div>
