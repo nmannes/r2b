@@ -29,13 +29,13 @@ bodyClass: "page-service"
    {% assign result = idx | modulo: 2 %}
    {% assign mod_4 = idx | modulo: 4 %}
    {% if result == 0 %}
-   <div class="row viewport-block-2 px-4 py-8 align-items-center justify-content-around">
+   <div class="row viewport-block-2 px-4 align-items-center justify-content-around">
       <div class="col-7 order-2 d-flex flex-column gap-3">
       {% include candidate.html candidate=cand %}
       {% else %}
       {% include candidate.html candidate=cand %}
       </div>
-      <div class=" col-5
+      <div class="bg-image col-5
          {% if mod_4 == 3 %}order-1{% else %}order-3{% endif %} 
          {{page.slug}}-background-{{idx | divided_by: 2}}"></div>
       </div>
@@ -44,9 +44,11 @@ bodyClass: "page-service"
    {% endfor %}
 
    {% if candidates | size | modulo: 2 == 1 %}
-      </div>
-      <div class="col-5 h-100 {{page.slug}}-background-{{idx | divided_by: 2}}"></div>
-      </div>
-   </div>
+</div>
+<div class="bg-image col-5
+   {% if mod_4 == 3 %}order-1{% else %}order-3{% endif %} 
+   {{page.slug}}-background-{{idx | divided_by: 2}}"></div>
+</div>
+</div>
 {% endif %}
 </div>
