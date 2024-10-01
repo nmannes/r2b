@@ -4,26 +4,26 @@ bodyClass: "page-teams"
 ---
 
 <div class="intro">
-    
-    <div class="container">
+
+  <div class="container content">
 
 
-      <div class="meet-the-team">
-        {{ content }}
-      </div>            
-
-        {% for teammate in site.team %}
-        <div class="row pb-4">
-          <h1>{{teammate.title}}</h1>
-            <div class="team-text col-sm-12 col-md-6 col-lg-6">
-                <p>
-                    {{teammate.content}}
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img width="480" src="{{teammate.image | relative_url}}">
-            </div>
-        </div>
-        {% endfor %}
+    <div class="meet-the-team">
+      {{ content }}
     </div>
+
+    {% for teammate in site.team %}
+    <div class="row pb-4">
+      <h1>{{teammate.title}}</h1>
+      <div class="team-text col-sm-12 col-md-6 col-lg-6 content">
+        <p>
+          {{teammate.content}}
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <img width="480" src="{{teammate.image | relative_url}}">
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
