@@ -4,7 +4,7 @@ layout: page
 description: Contact
 ---
 
-We are accessible by <a href="tel:2028416839" style="color: white;"> phone</a> or <a href="mailto:josh@blueimpactstrategies.com" style="color: white;"> email</a> during the following hours:
+We are accessible by <a href="tel:2028416839"> phone</a> or <a href="mailto:josh@blueimpactstrategies.com"> email</a> during the following hours:
 
 | Day       | Operating Hours |
 | --------- | --------------- |
