@@ -3,16 +3,20 @@ layout: default
 bodyClass: "page-service"
 ---
 
-<div class="container-fluid py-2">
+<div class="p-3">
    <div class="row gap-3 justify-content-center">
-      <div class="service service-single row">
-         <h1 class="title">{{page.title}}</h1>
-         {% if page.intro_image %}
-         <div class="col title-image d-none d-lg-block">
-            <img src="{{ page.intro_image | relative_url }}" />
+      <div class="container-fluid">
+         <h1 class="title text-uppercase pt-4">{{page.title}}</h1>
+         
+         <div class="p-2 row">
+
+            {% if page.intro_image %}
+            <div class="col title-image d-none d-lg-block">
+               <img src="{{ page.intro_image | relative_url }}" />
+            </div>
+            {% endif %}
+            <div class="content col">{{content}}</div>
          </div>
-         {% endif %}
-         <div class="content col">{{content}}</div>
       </div>
    </div>
 </div>
@@ -25,7 +29,7 @@ bodyClass: "page-service"
    {% assign result = idx | modulo: 2 %}
    {% if result == 0 %}
    <div
-      class="row viewport-block-2 bg-1 px-4 py-8 align-items-center justify-content-around">
+      class="row viewport-block-2 {{page.slug}}-background-{{idx | divided_by: 2}} px-4 py-8 align-items-center justify-content-around">
       {% include candidate.html candidate=cand %}
       {% else %}
       {% include candidate.html candidate=cand %}

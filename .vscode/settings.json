@@ -4,8 +4,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "sissel.shopify-liquid"
   },
   "search.exclude": {
     "**/.git": true,
