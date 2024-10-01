@@ -29,14 +29,14 @@ bodyClass: "page-service"
    {% assign result = idx | modulo: 2 %}
    {% assign mod_4 = idx | modulo: 4 %}
    {% if result == 0 %}
-   <div class="row viewport-block-2 p-4 align-items-center justify-content-around">
-      <div class="col-7 order-2 d-flex flex-column gap-3">
+   <div class="row row-gap-4 {% if mod_4 == 0 %}off-color-bg{% endif %} viewport-block-2 p-4 align-items-center justify-content-around">
+      <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 order-2 d-flex flex-column gap-3">
       {% include candidate.html candidate=cand %}
       {% else %}
       {% include candidate.html candidate=cand %}
       </div>
-      <div class="bg-image col-5
-         {% if mod_4 == 3 %}order-1{% else %}order-3{% endif %} 
+      <div class="bg-image col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5
+         {% if mod_4 == 3 %}order-md-1 {% else %}order-md-3{% endif %} 
          {{page.slug}}-background-{{idx | divided_by: 2}}"></div>
       </div>
    </div>
