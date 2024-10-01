@@ -1,4 +1,6 @@
 .header {
+  position: sticky;
+  top: 0;
   color: $black;
   background-color: $white;
   display: flex;
@@ -27,4 +29,9 @@
       position: static;
     }
   }
+}
+
+
+.header-title {
+  text-wrap: nowrap;
 }

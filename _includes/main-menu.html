@@ -1,6 +1,6 @@
 <div id="main-menu" class="main-menu">
   <ul>
-  {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
+    {% assign mainmenu = site.data.menus.main | sort: 'weight' %}
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
@@ -16,16 +16,17 @@
     </li>
   </ul>
 </div>
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script
+  src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 <script>
   var sjs = SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>',
     {% if jekyll.environment == "production" %}
-    json: '/r2b/search.json',
+  json: '/r2b/search.json',
     {% else %}
-      json: '/search.json',
+  json: '/search.json',
     {% endif %}
   })
 </script>
