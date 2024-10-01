@@ -13,14 +13,15 @@ bodyClass: "page-services"
 <div class="container pb-6">
   <div class="row">
     {% for service in site.issues %}
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-sm-6 col-md-4 mb-3">
       <div class="service service-summary">
         <div class="service-content content">
           <h2 class="service-title">
-            <a style="color: white;" href="{{ service.url | relative_url }}">{{
+            <a href="{{ service.url | relative_url }}">{{
               service.title }}</a>
           </h2>
           <p>{{ service.excerpt | markdownify | strip_html | truncate: 60 }}</p>
+          <img src="{{ service.intro_image | relative_url }}" />
         </div>
       </div>
     </div>
