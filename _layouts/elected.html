@@ -7,70 +7,48 @@ bodyClass: "page-elected"
 <div class="container px-2 pt-3">
   <div class="profile-header d-flex flex-row gap-3 justify-content-between">
     <div>
-      <img src="{{'/images/josh.png' | relative_url}}">
+      <img src="{{'/images/placeholder.png' | relative_url}}">
     </div>
     <div class="content d-flex flex-column justify-content-around">
       <div>
-        <h1 class="text-end"> George Washington</h1>
+        <h1 class="text-end"> {{page.title}}</h1>
       </div>
 
       <div>
-        <h2 class="text-end"> VA District 1</h2>
+        <h2 class="text-end"> {{page.District}}</h2>
       </div>
 
     </div>
   </div>
 
-  <div class="bio content py-3">
-    <p>
-      Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus posuere
-      sapien porta volutpat; malesuada torquent per mauris. Senectus donec nisl
-      accumsan ac finibus torquent posuere montes. Nostra non dictumst velit
-      rhoncus fusce quis diam maximus eleifend. Varius litora venenatis mollis
-      velit ornare turpis. Ridiculus mus facilisis fusce aenean luctus. Aliquam
-      parturient primis convallis interdum pellentesque. In inceptos euismod
-      blandit hac; ipsum ornare integer pretium risus. Sagittis sed eget ex
-      augue, integer sem nulla.
-    </p>
-    <p>
-      Platea fermentum cubilia mattis conubia condimentum. Nostra in leo
-      dictumst egestas egestas platea ornare. Est vestibulum justo semper nostra
-      rutrum id montes. Integer dolor pharetra luctus torquent felis potenti
-      duis blandit euismod. Efficitur aliquet nisl egestas egestas ut conubia
-      diam. Eu hendrerit himenaeos neque ipsum habitasse dui. Gravida penatibus
-      donec lacinia vulputate pellentesque. Aliquet mauris curae aenean aptent
-      cursus purus suspendisse. Est dis consequat eu facilisis magnis lacinia;
-      metus tristique natoque. Vestibulum eu odio mi mattis nam lectus.
-    </p>
-  </div>
   <div class="links">
     <div class="bp">
-      <a href="{{candidate.Ballotpedia}}">
+      <a href="{{page.Ballotpedia}}">
         <img src="{{'/images/record.svg' | relative_url}}" />
       </a>
     </div>
 
     <div class="fb">
-      <a href="{{candidate.Facebook}}">
+      <a href="{{page.Facebook}}">
         <img src="{{'/images/facebook.svg' | relative_url}}" />
       </a>
     </div>
 
     <div class="insta">
-      <a href="https://instagram.com/{{candidate.Instagram}}">
+      <a href="https://instagram.com/{{page.Instagram}}">
         <img src="{{'/images/instagram.svg' | relative_url}}" />
       </a>
     </div>
     <div class="xcom">
 
-      <a href="{{candidate.X}}">
+      <a href="{{page.X}}">
         <img src="{{'/images/twitter.svg' | relative_url}}" />
       </a>
 
     </div>
 
     <div class="actblue">
-      <a href="{{candidate.ActBlue}}">
+      <a href="{{page.ActBlue}}">
         <img src="{{'/images/actblue.svg' | relative_url}}" />
       </a>
     </div>

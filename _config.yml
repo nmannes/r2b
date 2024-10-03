@@ -39,6 +39,14 @@ plugins:
   - jekyll-environment-variables
   - jekyll-datapage-generator
 
+page_gen:
+- data: candidates
+  template: 'elected'
+  dir: 'candidates'
+  index_files: false
+  name_expr: (record['First'] + "-" + record['Last']).gsub(' ', '-').downcase
+  title_expr: record['First'] + " " + record['Last']
+
 exclude:
   - Gemfile
   - Gemfile.lock
